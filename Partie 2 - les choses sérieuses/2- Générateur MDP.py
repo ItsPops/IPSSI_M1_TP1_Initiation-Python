@@ -5,7 +5,7 @@ import string
 passwordLength = 8
 howManyUppers = 1
 howManyNumbers = 2
-howManySpecials = 1
+howManySpecials = 7
 
 while True:
     password = ""
