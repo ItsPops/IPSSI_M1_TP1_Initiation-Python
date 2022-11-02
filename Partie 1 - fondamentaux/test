@@ -1,0 +1,9 @@
+import random
+letters = ['a','b','c','d','e']
+length = 5
+numb_1 = random.randint(9,100)
+numb_2 = random.randrange (0,70,7)
+s3 = ""
+for i in range (length-2):
+    s3 = s3 + random.choice(letters)
+print(str(s3) + str(numb_1) + str(numb_2))
